@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(2, 138, 148);
+}
+.ul {
+    list-style-type: none;
+}
+
+.contenedor{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 50px auto;
+    background-color: white;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.tareslist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 9%;
+    padding-bottom: 10px;
+}
+
+.input{
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.bt1{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.tareamasbotones{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+.borrado{
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: red;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.hecho{
+    border: 2px solid rgb(19, 106, 206);
+    border-radius: 5px;
+    background-color:rgb(19, 106, 206);
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+.tareasAgregadas{
+    margin-top: 10px;
+}
+
+
+
